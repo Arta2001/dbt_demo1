@@ -5,13 +5,3 @@ config-version: 2
 profile: default
 
 model-paths: ["models"]
-analysis-paths: ["analyses"]
-test-paths: ["tests"]
-seed-paths: ["seeds"]
-macro-paths: ["macros"]
-snapshot-paths: ["snapshots"]
-
-models:
-  dbt_cloud_demo_for_bigquery:
-    +materialized: view
-
